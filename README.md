@@ -1,2 +1,2 @@
 # Google-homepage
-Homepage with a working Search icon
+Google Home Page from scratch, with a working search bar!!

@@ -7,14 +7,15 @@
     <title>Google</title>
     <link rel="icon" href="images/google-icon.jfif">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav>
         <ul class="nav-bar">
             <li><a href="https://google.com/mail">Gmail</a></li>
             <li><a href="https://www.google.co.in/imghp?hl=en&tab=ri&ogbl">Images</a></li>
-            <li><img id="Apps" src="images/apps.png" alt="Google apps"></li>
-            <li><img id="Account" src="images/profile-pic.jpg" alt="Google Account"></li>
+            <li><a href="https://workspace.google.com/features/"><img id="Apps" src="images/apps.png" alt="Google apps"></a></li>
+            <li><a href="https://myaccount.google.com/?pli=1"><img id="Account" src="images/profile-pic.jpg" alt="Google Account"></a></li>
         </ul>
     </nav>
     <section>
@@ -22,24 +23,20 @@
             <img  src="images/google-logo.png" alt="logo">
         </div>
         <div class="container">
-            <form  action="https://www.google.com/search" method="get">
-                    <div class="search-bar">
-                        <input type="text" placeholder="Search google or type a URL" name="q">
-                        <button type="submit"><img id="search-icon" src="images/search.png" alt="search"></button>
-                    </div> 
-                    <div class="button-container">
-                        <button type="submit">Google search</button>   
-                        <button><a href="https://www.google.com/doodles">I'm feeling lucky</a></button>
-                    </div>
-                    
+            <form action="https://www.google.com/search" method="get">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search google or type a URL" name="q">
+                    <button class="search" type="submit"><i class="fa fa-search search-icon"></i></button>
+                </div> 
+                <div class="buttons">
+                    <button type="submit">Google search</button>   
+                    <button><a href="https://www.google.com/doodles">I'm feeling lucky</a></button>
+                </div>     
             </form>
         </div>
     </section>
     <footer>
-        <div id="country">
-            India
-        </div>
-        <div></div>
+        <div id="country">India</div>
         <div class="footer-class">
             <ul>
                 <li><a href="https://about.google">About</a></li>
@@ -53,7 +50,6 @@
                 <li><a href="https://www.google.com/preferences">Settings</a></li>
             </ul>
         </div>
-        
     </footer>
 </body>
 </html>
