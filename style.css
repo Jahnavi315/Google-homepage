@@ -71,9 +71,6 @@ ul{
 .search-icon{
     color: rgba(28, 16, 16, 0.626);
 }
-::placeholder{
-    color:rgb(182, 176, 176);
-}
 .search-bar input{
     border: none;
     outline: none;
@@ -91,7 +88,6 @@ ul{
     margin: 25px 10px;
     font-size: 0.9em;
     background-color: #f2f2f2df;
-    color:rgba(28, 16, 16, 0.626); 
 }
 .buttons button:hover{
     cursor: pointer;
@@ -101,9 +97,6 @@ ul{
 .buttons a:hover{
     text-decoration: none;
     color: black;
-}
-.buttons a{
-    color:rgba(28, 16, 16, 0.626); 
 }
 footer{
     width: 100vw;
